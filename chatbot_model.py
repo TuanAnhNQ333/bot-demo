@@ -23,6 +23,7 @@ def create_chatbot():
         "I am a chatbot.",
         "Tell me a joke.",
         "Why did the scarecrow win an award? Because he was outstanding in his field!"
+        "Do you have money?"
     ]
     trainer.train(custom_conversations)
 
