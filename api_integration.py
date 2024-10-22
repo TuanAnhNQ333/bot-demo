@@ -3,7 +3,7 @@
 import requests
 
 def get_weather(city):
-    api_key = 'YOUR_API_KEY'  # Thay YOUR_API_KEY bằng API key của bạn
+    api_key = 'ceefd2f6333be205b67bfcf63a5200b4'
     base_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     response = requests.get(base_url)
     data = response.json()
