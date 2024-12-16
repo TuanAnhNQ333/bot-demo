@@ -8,5 +8,5 @@ function sendMessage() {
         .then(data => {
             document.getElementById("response").innerHTML += "<div>Bot: " + data + "</div>";
             document.getElementById("userInput").value = '';
-        });
+        }); 
 }
