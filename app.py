@@ -7,7 +7,7 @@ from api_integration import get_weather
 app = Flask(__name__)
 chatbot = create_chatbot()
 
-@app.route("/")
+@app.route("/") 
 def home():
     return render_template("index.html")
 
