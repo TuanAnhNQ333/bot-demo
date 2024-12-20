@@ -7,7 +7,7 @@ def create_chatbot():
     # Khởi tạo chatbot
     chatbot = ChatBot('MyChatbot')
 
-    # Huấn luyện với dữ liệu chuẩn
+    # Huấn luyện với dữ liệu chuẩn 
     trainer = ChatterBotCorpusTrainer(chatbot)
     trainer.train("chatterbot.corpus.english")
 
