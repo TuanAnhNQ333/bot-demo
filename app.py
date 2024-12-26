@@ -11,7 +11,7 @@ chatbot = create_chatbot()
 def home():
     return render_template("index.html")
 
-@app.route("/get")
+@app.route("/get") 
 def get_bot_response():
     userText = request.args.get('msg')
     if "weather" in userText.lower():
